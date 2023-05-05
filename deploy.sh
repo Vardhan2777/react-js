@@ -1,4 +1,4 @@
 #!/bin/bash 
-unzip react.zip-14
+unzip react.zip-$CHOICE
 cp -r react.sh /usr/share/nginx/html
 rm -rf react.zip*
